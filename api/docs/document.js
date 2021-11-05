@@ -24,14 +24,14 @@
 
 /**
  * @swagger
- * /api/students/:sID:
+ * /api/students/{id}:
  *    get:
  *      tags:
  *        - Student
  *      parameters:
- *        - name: ID
+ *        - name: id
  *          description: Student ID
- *          in: formData
+ *          in: path
  *          required: true
  *          type: number
  *      description: Get students by ID
